@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 1</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="myStyle.css" />
+        <link rel="stylesheet" href="menu.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="main_wrapper">
+            <header>
+                <div id="main_title">
+                    <img src="" alt="Apple" id="logo">
+                </div>
+
+                <nav class="top-nav">
+                    <ul class="laila">
+                        <li><strong>Laila |</strong></li>
+                        <li class="dropdown"><a href="#" class="dropbtn"><b>Recent Items</b> |</a>
+                            <div class="dropdown-content">
+                                <a href="#">Recent 1</a>
+                                <a href="#">Recent 2</a>
+                                <a href="#">Recent 3</a>
+                            </div>
+                        </li>
+                        <li><a href="#">Preferences |</a></li>
+                        <li><a href="#">Setup |</a></li>
+                        <li><a href="#">Help |</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+                <nav class="search">
+                    <label for="search"><strong>Search: </strong></label>
+                    <!--<div class="selectWrapper">-->
+                    <select class="searchbar">
+                        <option>Matters</option>
+                        <option>Home</option>
+                        <option>Case Management</option>
+                        <option>Task Management</option>
+                        <option>Enforcer</option>
+                        <option>History</option>
+                        <option>Finance</option>
+                        <option>CSM</option>
+                        <option>Contacts</option>
+                        <option>Calendar</option>
+                        <option>Documents</option>
+                        <option>Reports</option>
+                        <option>Approvals</option>
+                        <option>Admin</option>
+                        <option>IPE Online Market</option>
+                    </select>
+                    
+                    <input type="text" style="height:20px;">
+                    <button class="go_button">GO</button>
+                </nav>
+
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li>
+                            <a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Case Management</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Task Management</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Matters</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Enforcer</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Histories</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Finance</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Invoices</a></li>
+                                <li><a href="#">Budget Requests</a></li>
+                                <li><a href="#">Manual Budgets</a></li>
+                                <li><a href="#">Accounting Information</a></li>
+                                <li><a href="#">Expenses</a></li>
+                                <li><a href="#">Account</a></li>
+                                <li><a href="#">Vendor Comparison</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">CSM</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Contacts</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Calendar</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Documents</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Reports</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Approvals</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Admin</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">IPE Online Market</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Sub-item 1</a></li>
+                                <li><a href="#">Sub-item 2</a></li>
+                                <li><a href="#">Sub-item 3</a></li>
+                                <li><a href="#">Sub-item 4</a></li>
+                                <li><a href="#">Sub-item 5</a></li>
+                                <li><a href="#">Sub-item 6</a></li>
+                                <li><a href="#">Sub-item 7</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <!--<div class="navbar">
+                    <ul class="menu">
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Home</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>
+                                <a href="#">Sub-item 2</a>
+                                <a href="#">Sub-item 3</a>
+                                <a href="#">Sub-item 4</a>
+                                <a href="#">Sub-item 5</a>
+                                <a href="#">Sub-item 6</a>
+                                <a href="#">Sub-item 7</a>
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Case Management</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Task Management</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Matters</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Enforcer</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">History</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Finance</a>
+                            <div class="sub-menu">
+                                <a href="#">Invoices</a>    
+                                <a href="#">Budget Requests</a> 
+                                <a href="#">Manual Budgets</a>  
+                                <a href="#">Accounting Information</a>  
+                                <a href="#">Expenses</a>    
+                                <a href="#">Accounts</a>    
+                                <a href="#">Vendor Comparison</a>   
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">CSM</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Contacts</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Calendar</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Documents</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Reports</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Approvals</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">Admin</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>       
+                                <a href="#">Sub-item 2</a>       
+                                <a href="#">Sub-item 3</a>       
+                                <a href="#">Sub-item 4</a>       
+                                <a href="#">Sub-item 5</a>       
+                                <a href="#">Sub-item 6</a>       
+                                <a href="#">Sub-item 7</a>       
+                            </div>
+                        </li>
+                        <li class="dropdown2">
+                            <a href="#" class="spanning">IPE Online Market</a>
+                            <div class="sub-menu">
+                                <a href="#">Sub-item 1</a>  
+                                <a href="#">Sub-item 2</a>  
+                                <a href="#">Sub-item 3</a>  
+                                <a href="#">Sub-item 4</a>  
+                                <a href="#">Sub-item 5</a>  
+                                <a href="#">Sub-item 6</a>  
+                                <a href="#">Sub-item 7</a>  
+                            </div>
+                        </li>
+                    </ul>
+                </div>-->
+            
+
+            <div id="banner_image">
+                <div id="banner_description">
+                    <button class="banner_button"><img src="envelope.png"> Share</button>
+                    <button class="banner_button"><img src="print.png"> Printable View</button>
+                    <button class="banner_button"><img src="help.png"> Help</button>                        
+                </div>
+            </div>
+
+            <div class='vendor_banner'>
+                <div class='vendor_description'>
+                    <h5>Vendor Comparison</h5>
+                </div>
+                    <label>Matter Category: </label>
+                    <span style="display:inline-block; width: 20px;"></span>
+                    <select class="searchbar">
+                        <option>Enforcement & Fraud</option>
+                    </select>
+                    <span style="display:inline-block; width: 100px;"></span>
+                    <label>Vendor: </label>
+                    <span style="display:inline-block; width: 20px;"></span>
+                    <input type="text" value="Dorsey & Whitney" style="border-radius:5px; width:300px; height:23px; border-width:1px; border-style:solid;"><br><br>
+                    <span style="display:inline-block; width: 61px;"></span>
+                    <label>Matter: </label>
+                    <span style="display:inline-block; width: 20px;"></span>
+                    <select class="searchbar">
+                        <option>APL2011002884</option>
+                    </select><br><br>
+                    <span style="display:inline-block; width: 55px;"></span>
+                    <label>Invoice: </label>
+                    <span style="display:inline-block; width: 20px;"></span>
+                    <select class="searchbar">
+                        <option>AWB38727</option>
+                    </select><br><br>
+                    <button type="button" id="search">Search</button>
+                    <button type="reset" id="reset">Reset</button>
+
+                <div class="vendor_description">
+                    <h5>Comparison by Invoice</h5>
+                </div>
+                <p>Simulate fee comparison from the next 3 lower-cost vendors, while using the same number of hours spent on this matter by the selected vendor.</p>
+                <input type="radio" name="sort" checked> Sort by descending order
+                <input type="radio" name="sort"> Sort by ascending order
+
+                <script>
+                        window.onload = function () {
+                        var options = {
+                            animationEnabled: false,
+                            theme: "light6",
+                            axisX:{
+                                valueFormatString:"DDD",
+                                title: "Vendors"
+                            },
+                            axisY:{
+                                prefix: "$",
+                                suffix:"k",
+                                lineThickness: 1.5,
+                                title: "Total Fees",
+                                maximum: 300			
+                            },
+                            toolTip: {
+                                shared: false,
+                                content:"{name}:{x}",
+                                backgroundColor:"rgb(89,167,240)",
+                                borderColor:"rgb(89,167,240)",
+                                fontWeight:"light"
+                            },
+                            legend:{
+                                verticalAlign: "center",
+                                horizontalAlign: "right"
+                            },
+                            data: [
+                            {     
+                                type: "stackedBar",
+                                toolTipContent: "{name}<br>Total: ${y}k",
+                                showInLegend: true,
+                                name: "Partner",
+                                legendText:"Partner- 150 hrs",
+                                xValueFormatString:"DD, MMM",
+                                axisYType: "primary",
+                                color: "rgb(72, 96, 163)",
+                                indexLabel: "${y}k",
+                                dataPoints: [
+                                    { y: 85.5, label: "Vendor D" },
+                                    { y: 90, label: "Vendor C" },
+                                    { y: 97.5, label: "Vendor B" },
+                                    { y: 112.5, label: "Dorsey & Whitney" }
+                                ]
+                            },
+                            {
+                                type: "stackedBar",
+                                toolTipContent: "{name}<br>Total: ${y}k",
+                                showInLegend: true,
+                                name: "Case Attorney",
+                                legendText:"Case Attorney- 80 hrs",
+                                axisYType: "primary",
+                                color: "rgb(253, 134, 66)",
+                                indexLabel: "${y}k",
+                                dataPoints: [
+                                    { y: 38, label: "Vendor D" },
+                                    { y: 34, label: "Vendor C" },
+                                    { y: 36, label: "Vendor B" },
+                                    { y: 50, label: "Dorsey & Whitney" }
+                                ]
+                            },
+                            {
+                                type: "stackedBar",
+                                toolTipContent: "{name}<br>Total: ${y}k",
+                                showInLegend: true,
+                                name: "Associate",
+                                legendText:"Associate- 200 hrs",
+                                axisYType: "primary",
+                                color: "rgb(177, 175, 166)",
+                                indexLabel: "${y}k",
+                                dataPoints: [
+                                    { y: 38, label: "Vendor D" },
+                                    { y: 56, label: "Vendor C" },
+                                    { y: 62, label: "Vendor B" },
+                                    { y: 70, label: "Dorsey & Whitney" }
+                                ]
+                            },
+                            {
+                                type: "stackedBar",
+                                toolTipContent: "{name}<br>Total: ${y}k",
+                                showInLegend: true,
+                                name: "Councel",
+                                legendText:"Councel- 25 hrs",
+                                axisYType: "primary",
+                                color:"rgb(233, 190, 49)",
+                                indexLabel: "${y}k",
+                                dataPoints: [
+                                    { y: 14, label: "Vendor D" },
+                                    { y: 12, label: "Vendor C" },
+                                    { y: 15, label: "Vendor B"},
+                                    { y: 15, label: "Dorsey & Whitney" }
+                                ]
+                            },
+                            {
+                                type: "stackedBar",
+                                toolTipContent: "{name}<br>Total: ${y}k",
+                                showInLegend: true,
+                                name: "Paralegal",
+                                legendText:"Paralegal- 50 hrs",
+                                axisYType: "primary",
+                                color:"rgb(122, 172, 230)",
+                                indexLabel: "${y}k",
+                                dataPoints: [
+                                    { y: 9, label: "Vendor D" },
+                                    { y: 12, label: "Vendor C" },
+                                    { y: 14, label: "Vendor B"},
+                                    { y: 15, label: "Dorsey & Whitney" }
+                                ]
+                            },
+                            {
+                                type: "stackedBar",
+                                toolTipContent: "{name}<br>Total: ${y}k",
+                                showInLegend: true,
+                                name: "Project Asstn",
+                                legendText:"Project Asstn- 120 hrs",
+                                axisYType: "primary",
+                                color:"rgb(51, 179, 94)",
+                                indexLabel: "${y}k",
+                                dataPoints: [
+                                    { y: 14, label: "Vendor D" },
+                                    { y: 12, label: "Vendor C" },
+                                    { y: 18, label: "Vendor B"},
+                                    { y: 13, label: "Dorsey & Whitney" }
+                                ]
+                            }
+                            ]
+                        };
+                        
+                        $("#chartContainer").CanvasJSChart(options);
+                        }
+                        </script>
+                        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                        <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+                        <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+            </div>
+
+
+        </div>
+    </body>
+</html>
